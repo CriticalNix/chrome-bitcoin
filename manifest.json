@@ -4,7 +4,7 @@
   "description": "Easily check your balance and send Bitcoins from Chrome.",
   "default_locale" : "en",
   "background_page": "background.html",
-  "icons": { "16": "images/bitcoin_16.png", "19": "images/bitcoin_19.png", "48": "images/bitcoin_48.png" },x
+  "icons": { "16": "images/bitcoin_16.png", "19": "images/bitcoin_19.png", "48": "images/bitcoin_48.png" },
   "options_page": "options.html",
   "browser_action": {
     "default_icon": "images/bitcoin_19.png",
