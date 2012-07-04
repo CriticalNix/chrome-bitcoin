@@ -13,14 +13,14 @@
   "omnibox": { "keyword" : "BTC" },
     "content_scripts": [
     {
-      "matches": ["http://*/*","https://*/*","chrome-extension://"],
+      "matches": ["http://*/*","https://*/*"],
       "js": ["lib/send_form.js"]
     }
   ],
   "permissions": [
     "contextMenus",
-	"tabs",
-	"http://*/*",
-	"https://*/*"
+	  "tabs",
+	  "http://*/*",
+	  "https://*/*"
   ]
 }
