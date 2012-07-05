@@ -14,7 +14,7 @@
     "content_scripts": [
     {
       "matches": ["http://*/*","https://*/*"],
-      "js": ["lib/send_form.js"]
+      "js": ["lib/send_coins.js"]
     }
   ],
   "permissions": [
