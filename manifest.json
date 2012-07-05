@@ -1,6 +1,6 @@
 {
   "name": "Bitcoin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily check your balance and send Bitcoins from Chrome.",
   "default_locale" : "en",
   "background_page": "background.html",
