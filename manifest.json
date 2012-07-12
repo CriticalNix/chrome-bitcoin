@@ -10,7 +10,7 @@
     "default_icon": "images/bitcoin_19.png",
     "popup": "popup.html"
   },
-  "omnibox": { "keyword" : "BTC" }
+  "omnibox": { "keyword" : "BTC" },
   "permissions": [
     "contextMenus",
 	  "tabs",
