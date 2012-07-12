@@ -4,11 +4,15 @@
 <script type="text/javascript" src="lib/create_params.js"></script>
 <script type="text/javascript" src="lib/net.js"></script>
 <script type="text/javascript" src="lib/balance.js"></script>
+<script type="text/javascript" src="lib/get_transactions.js"></script>
+<script type="text/javascript" src="lib/last_spent.js"></script>
 <script type="text/javascript" src="lib/create_tab.js"></script>
 <body>
   <img src='images/bitcoin_19.png' style='width: 14px; height: 14px; border: 0px; vertical-align: bottom;'/><span id="balance" style='font-weight: bold; font-size: 14pt;'></span></img>
+  <span id="spent"></span>
 <script type="text/javascript">
   $().ready();
   balance();
+  getTransactions(lastSpent,errorLastSpent);
 </script>
 </body>
