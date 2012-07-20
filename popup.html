@@ -14,5 +14,8 @@
   $().ready();
   balance();
   getTransactions(lastSpent,errorLastSpent);
+  $("#spent").click(function() {
+    create_tab("transactions.html");
+  });
 </script>
 </body>
