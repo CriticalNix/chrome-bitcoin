@@ -12,10 +12,10 @@
       $().ready();
       function appendTransactions(res)
       {
-        transactions = JSON.parse(res);
+        transactions = JSON.parse(res).result;
         for (i = 0; i < transactions.length; i++)
         {
-          $("#transactions").add("<li>" + transactions[i].amount + "</li>");   
+          $("#transactions").append("<li>" + transactions[i].amount + "</li>");   
         }
         
       }
