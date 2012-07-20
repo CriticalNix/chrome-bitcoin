@@ -8,5 +8,17 @@
     <h1>Transactions</h1>
     <ul class="transactions">
     </ul>
+    <script type="text/javascript">
+      $().ready();
+      function appendTransactions(res)
+      {
+        transactions = JSON.parse(res);
+        for (i = 0; i < transactions.length; i++)
+        {
+          $("#ul").append("<li>" + transactions[i].amount + "</li>");   
+        }
+        
+      }
+    </script>
     </body>
 </html>
