@@ -15,7 +15,7 @@
         transactions = JSON.parse(res);
         for (i = 0; i < transactions.length; i++)
         {
-          $("#ul").append("<li>" + transactions[i].amount + "</li>");   
+          $("#transactions").add("<li>" + transactions[i].amount + "</li>");   
         }
         
       }
