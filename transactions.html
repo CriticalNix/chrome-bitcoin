@@ -5,7 +5,7 @@
 	<script type="text/javascript" src="/lib/net.js"></script>
   <script type="text/javascript" src="lib/get_transactions.js"></script>
   <body>
-    <h1>Transactions</h1>
+    <h1 id="title">Transactions</h1>
     <ul class="transactions">
     </ul>
     <script type="text/javascript">
@@ -19,6 +19,12 @@
         }
         
       }
+
+      function errorMsg(res)
+      {
+        $("#title").html("Error. Cannot retrieve list.");
+      }
+      getTransactions(appendTransactions,errorMsg);                  
     </script>
     </body>
 </html>
